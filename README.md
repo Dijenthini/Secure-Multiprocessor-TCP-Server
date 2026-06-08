@@ -19,7 +19,6 @@ A **multi-client TCP server** built in C with custom protocol framing, salted SH
 - [Commands](#-commands)
 - [Security Features](#-security-features)
 - [Logging Format](#-logging-format)
-- [Demo Video](#-demo-video)
 
 ---
 ## 🎯Features
@@ -228,11 +227,6 @@ Choice:
 [2026-04-12 15:23:45] IP:127.0.0.1:41966 PID:4510 USER:user1 CMD:LOGIN RESULT:FAILED
 
 [2026-04-12 15:24:11] IP:127.0.0.1:41966 PID:4510 USER:user1 CMD:LOGIN RESULT:LOCKED
-
----
-
-## 🎥 Demo Video
-[Click here to watch the demo](#)
 
 ---
 
