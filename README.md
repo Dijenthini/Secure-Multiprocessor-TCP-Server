@@ -5,7 +5,7 @@
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 [![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white)](https://www.openssl.org/)
 
-A **multi-client TCP server** built in C with custom protocol framing, salted SHA256 authentication, session token management, and comprehensive security features.
+A secure, **concurrent TCP server** in C featuring fork()-based **multiprocessing**, custom LEN:<n> **protocol framing, salted SHA256 authentication, 32-char session tokens with 5-min expiry, per-IP rate limiting (10 req/min), brute-force lockout (3 attempts), and full audit logging**. Comes with a Python client for easy testing.
 
 ---
 ## 📋 Table of Contents
