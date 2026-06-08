@@ -19,6 +19,7 @@ A **multi-client TCP server** built in C with custom protocol framing, salted SH
 - [Commands](#-commands)
 - [Security Features](#-security-features)
 - [Logging Format](#-logging-format)
+- [Screenshots](#screenshots)
 
 ---
 ## 🎯Features
@@ -227,6 +228,34 @@ Choice:
 [2026-04-12 15:23:45] IP:127.0.0.1:41966 PID:4510 USER:user1 CMD:LOGIN RESULT:FAILED
 
 [2026-04-12 15:24:11] IP:127.0.0.1:41966 PID:4510 USER:user1 CMD:LOGIN RESULT:LOCKED
+
+---
+
+## Screenshots
+
+### Server Running on Port 50158
+![Server Running](screenshots/server_running.png)
+
+### Successful Registration
+![Registration](screenshots/user_registration.png)
+
+### Login with Session Token
+![Login](screenshots/successful_login_with_token.png)
+
+### Failed Login Attempts
+![Failed Login Attempts](screenshots/failed_login_attempts.png)
+
+### Account Lockout After Failed Attempts
+![Account Locked Message](screenshots/account_locked_message.png)
+
+### Multiple Clients with fork()
+![Multiple Processes](screenshots/multiple_child_processes_handling_clients.png)
+
+### Zombie Process Prevention
+![No Zombies](screenshots/zombie_process_prevention.png)
+
+### Server Log File Contents
+![Log File](screenshots/server_log_file_contents.png)
 
 ---
 
