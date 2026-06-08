@@ -1,0 +1,9 @@
+CC = gcc
+CFLAGS = -Wall -O2
+LDFLAGS = -lssl -lcrypto
+
+server_4158: server_4158.c
+	$(CC) $(CFLAGS) -o server_4158 server_4158.c $(LDFLAGS)
+
+clean:
+	rm -f server_4158 *.o *.log users.db
